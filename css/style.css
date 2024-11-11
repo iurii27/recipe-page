@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body,h1,h2,p,ul,ol,hr {
+    margin: 0;
+}
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.outfit-SemiBold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.outfit-Bold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.heading-1{
+    color:#312e2c ;
+    font-size:40px ;
+    line-height:100% ;
+}
+.body-reg{
+    color: #5F564D;
+    font-size: 16px;
+    line-height: 150%;
+}
+.heading-s {
+    color: #7A284E;
+    font-size: 20px;
+    line-height: 100%;
+}
+.heading-m {
+    color: #854632;
+    font-size: 28px;
+    line-height: 100%;
+}
+body{
+    background-color: #F3E5D7;
+    padding: 125px 0;
+}
+ul,
+ol {
+    padding-left: 28px;
+}
+
+li {
+    padding-left: 22px;
+    margin-bottom: 8px;
+}
+.bg-pink li::marker{
+    color: #7A284E;
+}
+main{
+    max-width: 736px;
+background-color: #ffffff;
+padding: 40px;
+border-radius: 24px;
+margin-left: auto;
+margin-right: auto;
+}
+img{
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+h1{
+    margin-bottom: 24px;
+}
+h2{
+    margin-bottom: 24px;
+}
+section:not(:last-child){
+    margin-bottom: 32px;
+}
+section:last-child p {
+    margin-bottom: 24px;
+}
+section li::marker{
+    color: #854632
+}
+.bg-pink{
+    background-color: #f8e9f1;
+    padding: 28px;
+    border-radius: 12px;
+}
+bg-pink h2{
+    margin-bottom: 16px;
+}
+hr{
+    margin-bottom: 32px;
+    border-color: #E3DDD7;
+}
+table{
+    /* background-color: #f60000; */
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+/* background-color: #1cdb4f; */
+text-align: left;
+padding-left: 32px;
+}
+td{
+/* background-color: #e3c625; */
+color: #854632;
+}
+th,td{
+    width: 50%;
+    padding-top: 12px;
+}
+tr:not(:last-child) th, tr:not(:last-child) td {
+    border-bottom: 1px solid #E3DDD7;
+    padding-bottom: 12px;
+}
+
